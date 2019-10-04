@@ -1,0 +1,10 @@
+<block class="content">
+  <h1 class="message"></h1>
+  <h2 class="error status"></h2>
+  <%= error.stack %>
+</block>
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}
